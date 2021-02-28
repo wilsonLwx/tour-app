@@ -87,7 +87,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang='stylus'>
+@import '~@/assets/css/common.styl'
+
 .icons{
     width: 100%;
     overflow: hidden;
@@ -114,6 +116,7 @@ export default {
     font-size: .28rem;
     text-align: center;
     color: #212121;   
+    textOverflow();
 }
 
 </style>
